@@ -6,7 +6,9 @@ Created a contact log system with 11 functions. Create a log of contacts, look u
 
 Using hash table functions made it very useful in handling large data sets of employees as well as their numbers. We even tested this with edge cases to prove it would be correct. This case below had over 1500 lines of contacts in the fictional ‘University’ as well as 500 lines of testing the lookup/add functions. 
 
-I also used Valgrind to make sure everything I allocated memory using malloc () for I also freed at the end and there were no memory leaks.
+<img src="assets/Valgrind.png" width="800">
+
+I also used Valgrind to make sure everything I allocated memory using malloc () for I also freed at the end. Ensuring 100% there were no memory leaks.
 
 Each time a new item is added to a bucket in the hash table, it is appended to the end of the bucket's linked list.
 
