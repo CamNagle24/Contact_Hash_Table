@@ -1,6 +1,6 @@
 # Contact Hash Table
 
-<img src="assets/Contact-Commands.png" width="300">
+<img src="assets/Contact-Commands.png" width="600">
 
 Created a contact log system with 11 functions. Create a log of contacts, look up names, clear the log, print contact names, plus read and write from .txt and .bin files. As well as printing error messages for anything a user might input incorrectly, like non-existent contact names or not having a contact log created. 
 
