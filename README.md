@@ -27,12 +27,16 @@ git clone https://github.com/CamNagle24/Contact_Hash_Table
 make
 ```
 
-At this point, you are free to type in whatever sequence of commands you like.
+At this point, you are free to type in whatever sequence of commands you like once you are cd'd into the proj1-code folder.
 
-Or:
+To get into the Contact Log System type
+
+```
+./contacts_main
+```
+
+Or if you want to run all 42 tests including reading/writing to binary files:
 
 ```
 make test
 ```
-
-If you want to run all 42 tests including reading/writing to binary files.
