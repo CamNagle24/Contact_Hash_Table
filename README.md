@@ -2,7 +2,20 @@
 
 <img src="assets/Contact-Commands.png" width="600">
 
-### Created a contact log system with 11 functions including: 
+### Welcome!
+
+This is a contact log system where you can add people's information to a hash table with linked lists for each bucket. 
+
+### What I Learned
+- Using hash tables for large data sets
+- Using a linked list
+- Valgrind for dynamic memory management with malloc() and free()
+- Reading and writing files in both text and binary formats
+- Testing edge cases
+
+Using hash table functions made it very useful in handling large data sets of employees as well as their numbers. We even tested this with edge cases to prove it would be correct. This case below had over 1500 lines of contacts in the fictional ‘University’ as well as 500 lines of testing the lookup/add functions.
+
+The 11 functions include: 
 
 Create a log of contacts
 Look up names
@@ -11,11 +24,6 @@ Print contact names
 Plus read and write from .txt and .bin files. 
 As well as printing error messages for anything a user might input incorrectly for edge cases.
 
-### What I Learned
--
-
-Using hash table functions made it very useful in handling large data sets of employees as well as their numbers. We even tested this with edge cases to prove it would be correct. This case below had over 1500 lines of contacts in the fictional ‘University’ as well as 500 lines of testing the lookup/add functions. 
-
 <img src="assets/Valgrind.png" width="800">
 
 I also used Valgrind to make sure everything I allocated memory using malloc () for I also freed at the end. Ensuring 100% there were no memory leaks.
@@ -23,8 +31,6 @@ I also used Valgrind to make sure everything I allocated memory using malloc () 
 Each time a new item is added to a bucket in the hash table, it is appended to the end of the bucket's linked list.
 
 ## <a href="https://www.youtube.com/watch?v=UNz9k9E9IWM"> Demo Video on YouTube </a>
-
-<img src="assets/Passed-Tests.png" width="800">
 
 <img src="assets/Contacts-Used.png" width="800">
 
@@ -50,3 +56,4 @@ Or if you want to run all 42 tests including reading/writing to binary files:
 ```
 make test
 ```
+<img src="assets/Passed-Tests.png" width="800">
