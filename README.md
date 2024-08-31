@@ -2,7 +2,17 @@
 
 <img src="assets/Contact-Commands.png" width="600">
 
-Created a contact log system with 11 functions. Create a log of contacts, look up names, clear the log, print contact names, plus read and write from .txt and .bin files. As well as printing error messages for anything a user might input incorrectly, like non-existent contact names or not having a contact log created. 
+### Created a contact log system with 11 functions including: 
+
+Create a log of contacts
+Look up names
+Clear the log
+Print contact names
+Plus read and write from .txt and .bin files. 
+As well as printing error messages for anything a user might input incorrectly for edge cases.
+
+### What I Learned
+-
 
 Using hash table functions made it very useful in handling large data sets of employees as well as their numbers. We even tested this with edge cases to prove it would be correct. This case below had over 1500 lines of contacts in the fictional ‘University’ as well as 500 lines of testing the lookup/add functions. 
 
