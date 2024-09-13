@@ -17,12 +17,12 @@ Using hash table functions made it very useful in handling large data sets of em
 
 The 11 functions include: 
 
-Create a log of contacts
-Look up names
-Clear the log
-Print contact names
-Plus read and write from .txt and .bin files. 
-As well as printing error messages for anything a user might input incorrectly for edge cases.
+- Create a log of contacts
+- Look up names
+- Clear the log
+- Print contact names
+- Plus read and write from .txt and .bin files. 
+- As well as printing error messages for anything a user might input incorrectly for edge cases.
 
 <img src="assets/Valgrind.png" width="800">
 
