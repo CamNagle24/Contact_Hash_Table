@@ -34,7 +34,7 @@ Here is an example of what the contact log functions could look like!
 
 <img src="assets/Contacts-Used.png" width="800">
 
-## <a href="https://www.youtube.com/watch?v=UNz9k9E9IWM"> Demo Video on YouTube </a>
+## <a href="https://youtu.be/NNMdnVFqG_Q"> Demo Video on YouTube </a>
 
 ## Setup
 
