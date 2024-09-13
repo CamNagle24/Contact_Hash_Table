@@ -30,9 +30,11 @@ I also used Valgrind to make sure everything I allocated memory using malloc () 
 
 Each time a new item is added to a bucket in the hash table, it is appended to the end of the bucket's linked list.
 
-## <a href="https://www.youtube.com/watch?v=UNz9k9E9IWM"> Demo Video on YouTube </a>
+Here is an example of what the contact log functions could look like!
 
 <img src="assets/Contacts-Used.png" width="800">
+
+## <a href="https://www.youtube.com/watch?v=UNz9k9E9IWM"> Demo Video on YouTube </a>
 
 ## Setup
 
